@@ -167,7 +167,7 @@ Widget socialNetwork(
             Text(
               name,
               style: TextStyle(
-                fontSize: 10,
+                fontSize: 9,
                 fontFamily: 'SourceSansPro',
                 fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 13, 123, 114),
