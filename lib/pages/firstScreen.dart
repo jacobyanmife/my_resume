@@ -112,13 +112,13 @@ class _FirstScreenState extends State<FirstScreen> {
                   Center(
                     child: text(
                         label:
-                            '"I am a pragmatic and Deligient young man, opened to learning and building society." ',
+                            '"I am a pragmatic and Diligient young man, open to learning and building society." ',
                         space: 0.5,
                         size: 12,
                         color: Color.fromARGB(255, 4, 67, 61)),
                   ),
                   SizedBox(height: 20),
-                  text(label: 'Offer to company', size: 18),
+                  text(label: 'What I can Offer', size: 18),
                   divide(),
                   tile('Good Team Work ability'),
                   SizedBox(height: 5),
