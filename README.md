@@ -1,16 +1,30 @@
 # my_resume
 
-A new Flutter project.
+# Description of app
+This app serves as on line resume comtaining my image, link to my online
+bio, my core skills and brief about me.
 
-## Getting Started
+# description of code base and how it works
+The code was written in fluttter for a better ui and it works with a few 
+packages and widgets to make the devlopment much attractive
 
-This project is a starting point for a Flutter application.
+# description of design and how it works
+The design concept was done by me and developed in such a way that a user doesnt 
+have to stress his/herself much to get the details needed and the color used was teal
+which helps with emotions.
 
-A few resources to get you started if this is your first Flutter project:
+# description of the libraries
+I made use of flutter package called ..Url/launcher and this is for me to link my social media 
+buttons to my web sociial account.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# description of features
+I would have love to add navigator button for more flexibility and more user friendly access to more 
+details about me.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# link to my APK
+https://drive.google.com/file/d/1OUu9lB2xKcMvZ5WQUddEMEzbPIU1bGbU/view?usp=share_link
+
+# challenges faced
+- System challenge and i had to get a technical person to help out
+- little understanding on packages used; i made use of stackoverflow documentation to resolve it 
+
