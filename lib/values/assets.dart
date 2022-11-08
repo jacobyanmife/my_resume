@@ -6,4 +6,7 @@ class AppAssets {
   static String jay = folderPath + 'jay.jpg';
   static String linkedin = folderPath + 'linkedin.png';
   static String twitter = folderPath + 'twitter.png';
+  static String gmail = folderPath + 'gmail.png';
+  static String pdf = folderPath + 'pdf.png';
+  static String googledrive = folderPath + 'googledrive.png';
 }

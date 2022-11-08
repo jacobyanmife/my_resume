@@ -25,111 +25,124 @@ class _FirstScreenState extends State<FirstScreen> {
           ),
           child: Padding(
             padding: const EdgeInsets.all(15),
-            child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  CircleAvatar(
-                    radius: 80.0,
-                    backgroundImage: AssetImage(AppAssets.jay),
-                    child: ClipRRect(
-                      child: Image.asset('assets/jay.jpg'),
-                      borderRadius: BorderRadius.circular(50),
-                    ),
-                  ),
-                  Text(
-                    'Jacob OLuwayanmife',
-                    style: TextStyle(
-                      fontFamily: 'SourceSansPro',
-                      fontSize: 20,
-                      color: Colors.teal,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Jacobyanmife',
-                        style: TextStyle(
-                          fontFamily: 'SourceSansPro',
-                          fontSize: 15,
-                          color: Colors.teal,
-                          fontWeight: FontWeight.w500,
-                        ),
+            child: SingleChildScrollView(
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    CircleAvatar(
+                      radius: 80.0,
+                      backgroundImage: AssetImage(AppAssets.jay),
+                      child: ClipRRect(
+                        child: Image.asset('assets/jay.jpg'),
+                        borderRadius: BorderRadius.circular(50),
                       ),
-                      SizedBox(width: 10),
-                      Text(
-                        '(Mobile Developer)',
-                        style: TextStyle(
-                          fontFamily: 'SourceSansPro',
-                          fontSize: 15,
-                          color: Colors.teal,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Text(
-                    'FLUTTER DEVELOPER',
-                    style: TextStyle(
-                      fontFamily: 'SourceSansPro',
-                      fontSize: 18,
-                      color: Color.fromARGB(255, 13, 123, 114),
-                      letterSpacing: 2.5,
-                      fontWeight: FontWeight.bold,
                     ),
-                  ),
-                  SizedBox(height: 10),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      socialNetwork(
-                          name: 'Jacob Abiodun',
-                          logo: AppAssets.linkedin,
-                          string:
-                              'https://www.linkedin.com/in/jacob-abiodun-0a2aa0109/'),
-                      SizedBox(width: 10),
-                      socialNetwork(
-                          name: 'Abiodun Jacob',
-                          logo: AppAssets.facebook,
-                          string: 'https://web.facebook.com/abiodun.jacob3'),
-                      SizedBox(width: 10),
-                      socialNetwork(
-                          name: 'YanmifeJacob',
-                          logo: AppAssets.twitter,
-                          string: 'https://twitter.com/yanmifejacob'),
-                    ],
-                  ),
-                  SizedBox(height: 10),
-                  text(label: 'About Me', size: 18),
-                  divide(),
-                  SizedBox(),
-                  Center(
-                    child: text(
-                        label:
-                            '"I am a pragmatic and Diligient young man, open to learning and building society." ',
-                        space: 0.5,
-                        size: 12,
-                        color: Color.fromARGB(255, 4, 67, 61)),
-                  ),
-                  SizedBox(height: 20),
-                  text(label: 'What I can Offer', size: 18),
-                  divide(),
-                  tile('Good Team Work ability'),
-                  SizedBox(height: 5),
-                  tile('Good Approaching to problem Solving'),
-                  SizedBox(height: 5),
-                  tile('Understanding of flutter'),
-                  SizedBox(height: 5),
-                  tile('Microsoft Ofiice Suite'),
-                  SizedBox(height: 5),
-                  tile('python'),
-                ]),
+                    Text(
+                      'Jacob Oluwayanmife',
+                      style: TextStyle(
+                        fontFamily: 'SourceSansPro',
+                        fontSize: 20,
+                        color: Colors.teal,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          'Jacobyanmife',
+                          style: TextStyle(
+                            fontFamily: 'SourceSansPro',
+                            fontSize: 15,
+                            color: Colors.teal,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Text(
+                          '(Mobile Developer)',
+                          style: TextStyle(
+                            fontFamily: 'SourceSansPro',
+                            fontSize: 15,
+                            color: Colors.teal,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                      'FLUTTER DEVELOPER',
+                      style: TextStyle(
+                        fontFamily: 'SourceSansPro',
+                        fontSize: 18,
+                        color: Color.fromARGB(255, 13, 123, 114),
+                        letterSpacing: 2.5,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        socialNetwork(
+                            name: 'Jacob Abiodun',
+                            logo: AppAssets.linkedin,
+                            string:
+                                'https://www.linkedin.com/in/jacob-abiodun-0a2aa0109/'),
+                        SizedBox(width: 10),
+                        socialNetwork(
+                            name: 'Abiodun Jacob',
+                            logo: AppAssets.facebook,
+                            string: 'https://web.facebook.com/abiodun.jacob3'),
+                        SizedBox(width: 10),
+                        socialNetwork(
+                            name: 'YanmifeJacob',
+                            logo: AppAssets.twitter,
+                            string: 'https://twitter.com/yanmifejacob'),
+                        SizedBox(width: 10),
+                        socialNetwork(
+                            name: 'PDF Resume',
+                            logo: AppAssets.pdf,
+                            string:
+                                'https://drive.google.com/file/d/1dmibJE9bLwaJzR8TlUuAgHoOLo98UmSB/view?usp=share_link'),
+                        SizedBox(width: 10),
+                        socialNetwork(
+                            name: 'E-mail',
+                            logo: AppAssets.gmail,
+                            string: 'mailto:jacobyanmife@gmail.com?'),
+                      ],
+                    ),
+                    SizedBox(height: 10),
+                    text(label: 'About Me', size: 18),
+                    divide(),
+                    SizedBox(),
+                    Center(
+                      child: text(
+                          label:
+                              '"I am a pragmatic and Diligient young man, open to learning and building society." ',
+                          space: 0.5,
+                          size: 12,
+                          color: Color.fromARGB(255, 4, 67, 61)),
+                    ),
+                    SizedBox(height: 20),
+                    text(label: 'What I can Offer', size: 18),
+                    divide(),
+                    tile('Good Team Work ability'),
+                    SizedBox(height: 5),
+                    tile('Good Approaching to problem Solving'),
+                    SizedBox(height: 5),
+                    tile('Understanding of flutter'),
+                    SizedBox(height: 5),
+                    tile('Microsoft Ofiice Suite'),
+                    SizedBox(height: 5),
+                    tile('python'),
+                  ]),
+            ),
           ),
         ));
   }
@@ -154,7 +167,7 @@ Widget socialNetwork(
     onTap: () => launchUrl(Uri.parse(string)),
     child: Container(
         height: 30,
-        width: 100,
+        width: 110,
         padding: EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: Color.fromARGB(255, 209, 224, 223),
